@@ -1,5 +1,4 @@
-id,produto,categoria,valor,
-quantidade,data
+id,produto,categoria,valor,quantidade,data
 1,Notebook,Eletrônicos,3500,1, 2024-01-10
 2,Mouse,Eletrônicos,80,2,2024-01-11
 3,Teclado,Eletrônicos,150,1,2024-01-12
