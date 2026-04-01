@@ -26,3 +26,20 @@ SELECT
      AVG(valor * quantidade) AS
 ticket_medio
 FROM vendas;
+
+-- Faturamento por categoria
+SELECT
+     categoria,
+    SUM(valor * quantidade) AS faturamento
+FROM vendas 
+GROUP BY categoria;
+
+
+-- Produtos mais vendidos 
+SELECT
+     produto,
+     SUM(quantidade) AS
+total_vendido
+FROM vendas
+GROUP BY protudo 
+ORDER BY total_vendido DESC;
